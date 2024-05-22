@@ -1,0 +1,62 @@
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+  font-family: "Suisse";
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff);
+  font-family: "Suisse";
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #323131;
+  color: white;
+  position: relative;
+  max-width: 540px;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: "Suisse";
+  box-sizing: border-box;
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+.fooer {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.advice {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 70px;
+  margin-top: 52px; /* Добавлено правило */
+}
+
+.footer {
+  font-size: 16px;
+  margin: 50px 0 0; /* Отступ сверху для создания пространства между основным контентом и футером */
+  position: relative; /* Изменено на relative */
+  bottom: auto; /* Убираем нижний отступ */
+}
